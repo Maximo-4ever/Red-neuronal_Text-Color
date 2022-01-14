@@ -26,3 +26,21 @@ input {
   outline: none;
   cursor: pointer;
 }
+h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+p {
+  font-size: 1.16em;
+  max-width: 370px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+@media (max-width: 785px) {
+  #containerColor {
+    min-width: 290px;
+    font-size: 14px;
+    row-gap: 10px;
+  }
+}
